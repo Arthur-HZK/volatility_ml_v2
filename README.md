@@ -16,8 +16,8 @@ When available, the pipeline uses **actual option-chain snapshots** rather than 
 
 Free sources can provide current option chains for selected underlyings, while historical option-chain datasets are often licensed/paywalled. The repository therefore has two modes:
 
-1. **Live/current option chain mode** — retrieves real listed contracts from Yahoo Finance when available.
-2. **Historical research mode** — trains the model primarily on underlying + VIX history, while the option surface module operates on actual current-chain snapshots.
+1. **Live/current option chain mode**, retrieves real listed contracts from Yahoo Finance when available.
+2. **Historical research mode**, trains the model primarily on underlying + VIX history, while the option surface module operates on actual current-chain snapshots.
 
 This distinction is intentional: the project never presents synthetic options as if they were historical market observations.
 
